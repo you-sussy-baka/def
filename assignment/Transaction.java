@@ -10,7 +10,7 @@ public abstract class Transaction {
 	private LocalDateTime processedAt;
 
 	public Transaction() {
-		this(0);
+		this(0, new TransactionAccount());
 	}
 
 	public Transaction(double amount, TransactionAccount transactionAccount) {

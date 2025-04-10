@@ -1,6 +1,6 @@
 package assignment;
 
-public class Withdrawal {
+public class Withdrawal extends Transaction {
 	public Withdrawal() {
 		this(0, new TransactionAccount());
 	}

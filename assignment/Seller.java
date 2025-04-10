@@ -1,5 +1,7 @@
 package assignment;
 
+import java.util.ArrayList;
+
 public class Seller extends User {
 	private double balance;
 	private ArrayList<Store> stores;
